@@ -1,0 +1,31 @@
+
+
+
+    #world-box{
+        display: flex;
+        justify-content: center;
+        overflow: scroll;
+    }
+
+    #world{
+        display: inline-block;
+        position: fixed;
+        transform-origin: center center;
+        margin: auto;
+    }
+
+    #world-image{
+        z-index: -1;
+    }
+
+    #page{
+        height:6000px;
+    }
+
+    #git-link{
+        transform: rotate(90deg);
+    }
+
+    @media only screen and (min-width: 401px) {
+
+    }
