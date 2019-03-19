@@ -31,7 +31,7 @@ body{
     position: fixed;
     transform-origin: center center;
     margin: auto;
-    background-image: url(test-image.png);
+    background-image: url(/src/test-image.png);
     background-repeat: no-repeat;
     background-size: auto;
     z-index: -1;
