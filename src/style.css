@@ -16,13 +16,17 @@ body{
     margin-top: 150px;
 }
 
+#history{
+    margin-bottom: 200px;
+}
 
 .content{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 200px;
-    background-color: #9b9b9349;  
+    margin-bottom: 25%;
+    background-color: #9b9b9349;
+    text-align: center;
 }
 
 #world-box{
