@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed');
+
 body{
     /* Insert background image */
+    font-family: 'Saira Extra Condensed', sans-serif;
+    background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%);
 }
 
 .wrapper{
@@ -11,6 +15,7 @@ body{
 #home{
     margin-top: 150px;
 }
+
 
 .content{
     display: flex;
@@ -41,6 +46,10 @@ body{
     font-weight: bold;
 }
 
+h2{
+    font-family: 'Indie Flower', cursive;
+}
+
 .content h2{
     display: flex;
     justify-content: space-around;
@@ -60,10 +69,17 @@ body{
     text-align: center;
 }
 
+.logo img{
+    width: 50px;
+    height: auto;
+}
+
 #link-images{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
 }
 
 #linkedin{
