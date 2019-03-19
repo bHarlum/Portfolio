@@ -1,0 +1,77 @@
+body{
+    /* Insert background image */
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#home{
+    margin-top: 150px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+    background-color: #9b9b9349;  
+}
+
+#world-box{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+
+#world{
+    /* display: inline-block; */
+    position: fixed;
+    transform-origin: center center;
+    margin: auto;
+    background-image: url(test-image.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    z-index: -1;
+}
+
+#profile-picture h4{
+    font-weight: bold;
+}
+
+.content h2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #2dc2bd;
+    background-color: auto;
+    margin: auto auto;
+    height: 100px;
+    width: 100px; 
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#contact ul{
+    list-style: none;
+    text-align: center;
+}
+
+#link-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#linkedin{
+    height: 54px;
+    width:54px;
+}
+
+
+@media only screen and (min-width: 401px) {
+
+}
