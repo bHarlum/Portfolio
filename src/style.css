@@ -15,7 +15,6 @@ body{
 
 #name{
     position: fixed;
-    z-index: -1;
     width: auto;
     height: 400px;
     align-content: center;
@@ -24,6 +23,7 @@ body{
 .cloud-wrapper{
     display: flex;
     justify-content: space-evenly;
+    z-index: -2;
 }
 
 #plane{
