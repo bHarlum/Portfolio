@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+
 body{
     /* Insert background image */
     font-family: 'Saira Extra Condensed', sans-serif;
     background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%);
+}
+
+#name{
+    position: fixed;
+    z-index: -1;
+    width: 40%;
 }
 
 #title{
@@ -11,13 +19,6 @@ body{
     font-size: 20px;
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
-}
-
-#name{
-    position: fixed;
-    width: auto;
-    height: 400px;
-    align-content: center;
 }
 
 .cloud-wrapper{
@@ -35,6 +36,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 #home{
@@ -119,4 +121,20 @@ h2{
 
 @media only screen and (min-width: 401px) {
 
+}
+
+@media only screen and (min-width: 1000px) {
+    #name{
+        display: inline-block;
+        position: fixed;
+        width: auto;
+        height: 400px;
+        align-content: center;
+    }
+
+    .cloud-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        z-index: -2;
+    }
 }
