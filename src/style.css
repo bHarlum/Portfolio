@@ -13,6 +13,23 @@ body{
     font-family: 'Fredericka the Great', cursive;
 }
 
+#name{
+    position: fixed;
+    z-index: -1;
+    width: auto;
+    height: 400px;
+    align-content: center;
+}
+
+.cloud-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#plane{
+    position: fixed;
+    z-index: -1;
+}
 
 .wrapper{
     display: flex;
