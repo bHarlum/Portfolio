@@ -4,8 +4,14 @@
 
 body{
     /* Insert background image */
-    font-family: 'Saira Extra Condensed', sans-serif;
     background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%);
+}
+
+p {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(199, 199, 199);
 }
 
 #name{
@@ -40,11 +46,7 @@ body{
 }
 
 #home{
-    margin-top: 150px;
-}
-
-#history{
-    margin-bottom: 200px;
+    margin-top: 200px;
 }
 
 .content{
@@ -54,6 +56,7 @@ body{
     margin-bottom: 25%;
     background-color: #9b9b9349;
     text-align: center;
+    margin: 30px;
 }
 
 #world-box{
@@ -92,7 +95,7 @@ h2{
     width: 100px; 
     border-radius: 50px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 #contact ul{
@@ -100,33 +103,88 @@ h2{
     text-align: center;
 }
 
-.logo img{
-    width: 40px;
-    height: auto;
-}
-
 #link-images{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
     text-align: center;
 }
 
-#linkedin{
-    height: 54px;
-    width: 54px;
+#logos{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+#logos li{
+    display: inline-block;
+} 
+#logos img{
+    width: 50px;
+    height: auto;
 }
 
+.icon-bar {
+    position: fixed;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: #ffffff;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: #ffffff;
+}
+
+.google {
+    background: #dd4b39;
+    color: #ffffff;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: #ffffff;
+}
+
+.phone {
+    background: #217039;
+    color: #ffffff;
+}
+
+.github {
+    background: #eb8e42;
+    color: #ffffff;
+}
 
 @media only screen and (min-width: 401px) {
 
 }
 
 @media only screen and (min-width: 1000px) {
+    
     #name{
-        display: inline-block;
         position: fixed;
+        display: inline-block;
         width: auto;
         height: 400px;
         align-content: center;
