@@ -5,6 +5,11 @@
 body{
     /* Insert background image */
     background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%);
+    color: rgb(199, 199, 199);
+}
+
+ul{
+    list-style: none;
 }
 
 p {
@@ -99,7 +104,6 @@ h2{
 }
 
 #contact ul{
-    list-style: none;
     text-align: center;
 }
 
@@ -107,13 +111,11 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style: none;
     text-align: center;
 }
 
 #logos{
     display: inline-block;
-    list-style: none;
     text-align: center;
     padding: 0;
 }
@@ -176,14 +178,11 @@ h2{
     color: #ffffff;
 }
 
-@media only screen and (min-width: 401px) {
-
-}
 
 @media only screen and (min-width: 1000px) {
     
+
     #name{
-        position: fixed;
         display: inline-block;
         width: auto;
         height: 400px;
