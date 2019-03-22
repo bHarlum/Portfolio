@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 
+
+/* SIDEBAR STYLING */
 .sidebar {
     height: 50%;
     width: 0;
@@ -53,10 +55,7 @@
     right: 4px;
     padding: 10px;
 }
-
-
-
-
+/* SIDEBAR END */
 
 
 html{
@@ -65,7 +64,6 @@ html{
 
 body{
     background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%);
-    /* background-image: url(/src/images/background.png); */
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(199, 199, 199);
@@ -140,7 +138,6 @@ p{
     position: fixed;
     transform-origin: center center;
     margin: auto;
-    /* background-image: url(/src/test-image.png); */
     background-repeat: no-repeat;
     background-size: auto;
     z-index: -1;
@@ -251,6 +248,10 @@ table, tr, td{
 table{
     width: 50%;
     align-self: center;
+    margin-bottom: 10px;
+}
+tr section{
+    display: inline-block;
 }
 
 #answer{
@@ -281,6 +282,6 @@ table{
     }
 
     #home{
-        margin-top: 250px;
+        top: 250px;
     }
 }
