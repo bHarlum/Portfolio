@@ -1,10 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 
+.sidebar {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #hamburger {
+    position: fixed;
+    right: 4px;
+    padding: 10px;
+  }
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
 
 body{
-    /* Insert background image */
-    background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%);
+    /* background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%); */
+    background-image: url(/src/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: rgb(199, 199, 199);
 }
 
@@ -12,7 +75,7 @@ ul{
     list-style: none;
 }
 
-p {
+p{
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: bold;
     font-size: 17px;
@@ -41,6 +104,8 @@ p {
 #plane{
     position: fixed;
     z-index: -1;
+    height: 75vh;
+    width: auto;
 }
 
 .wrapper{
@@ -51,7 +116,7 @@ p {
 }
 
 #home{
-    margin-top: 150px;
+    top: 150px;
 }
 
 .content{
@@ -71,7 +136,7 @@ p {
 }
 
 #world{
-    /* display: inline-block; */
+    top: 50%;
     position: fixed;
     transform-origin: center center;
     margin: auto;
@@ -178,9 +243,22 @@ h2{
     color: #ffffff;
 }
 
+table, tr, td{
+    border: 1px;
+    border-style: solid;
+}
+
+
+#answer{
+    visibility: hidden;
+}
+
 
 @media only screen and (min-width: 1000px) {
     
+    #answer{
+        visibility: visible;
+    }
 
     #name{
         display: inline-block;
@@ -196,6 +274,6 @@ h2{
     }
 
     #home{
-        margin-top: 200px;
+        margin-top: 250px;
     }
 }
