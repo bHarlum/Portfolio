@@ -64,8 +64,8 @@ html{
 }
 
 body{
-    /* background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%); */
-    background-image: url(/src/images/background.png);
+    background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%);
+    /* background-image: url(/src/images/background.png); */
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(199, 199, 199);
