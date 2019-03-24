@@ -2,6 +2,7 @@
 
 #### Site: https://bharlum.github.io/
 #### Github: https://github.com/bHarlum
+* [File: Answers to Q1, Q2, Q3](docs/Questions-Bryce-Harlum.pdf)
 
 ## Goal
 * To create a functional website as a brief introduction of myself and my background. Displaying my web development skills and my projects to the community.
