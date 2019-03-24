@@ -103,6 +103,7 @@ Trello was used to track progress and prioritise tasks durring the development o
 * The biggest feature I wanted to implement was the rotating planet. I believe that this feature makes the site unique and attractive without distracting the user from the content.
 ### Stretch Goals
 * In the future I would like to implement geo location to the site to adjust images depending on the local weather of the user. The requirement of this are simple but would not be able to be met within the alloted time set for this project.
+* Find an artist to commission proffessional versions of images and change them to be scalar images. 
 ### Accessibility
 * The use of alt tage to identify each key element has been used to provide accessibility.
 #### Alt tags
