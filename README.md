@@ -1,13 +1,17 @@
 # Bryce Harlum Porfolio Website
 
-## Site: https://bharlum.github.io/
+#### Site: https://bharlum.github.io/
+#### Github: https://github.com/bHarlum
+* [File:Questions](files/Questions-Bryce Harlum.docx)
 
 ## Goal
-* To create a functional website as a brief introduction of myself and to show off my web development skills by displaying my projects to the community.
+* To create a functional website as a brief introduction of myself and my background. Displaying my web development skills and my projects to the community.
 
 ## Instructions
 ### How to use this site:
 * Navbar: Located on the top right. Click this or press this if on a touch device. This will expand a box with a button for each section. Select the desired section to move to it on the page. Press the 'X' to close the menu.
+* External links and contacts bar can be found on the left of the screen.
+* Click or press these links to access: twitter, mail, linked in, github, and phone.
 ### Supported devices
 * caniuse.come
 #### Java-script
@@ -123,10 +127,38 @@ Trello was used to track progress and prioritise tasks durring the development o
 * Nav menu: This is for swift navigation through the site. Linking directly sections on the page.
 * External link bar: Found on the left of the screen, used to link users to rlevent social media links and allow them to contact me. 
 #### Sitemap
-![Git example image](src/images/ReadmeImages/Sitemap.png)
+![sitemap image](src/images/ReadmeImages/Sitemap.png)
 * The site consists of a single page broken up with different cards. Each card contains information relevent to its title.
 * [File: sitemap.xml](files/sitemap.xml)
 #### Screenshots
+![screenshot main-desktop image](src/images/ReadmeImages/screen_one.png)
+* This is the initial view of the desktop-user when first landing on the page.
+---------
+![screenshot main-phone image](src/images/ReadmeImages/screen_two.png)
+* This is the initial view of the phone-user when first landing on the page.
+---------
+![screenshot extern-links-bar image](src/images/ReadmeImages/screen_three.png)
+* External link nav bar:
+* Twitter
+* Mail
+* Linked in
+* Git hub
+* phone
+---------
+![screenshot main-desktop image](src/images/ReadmeImages/screen_four.png)
+* Hamburger menu
+* Expands to match below.
+---------
+![screenshot main-desktop image](src/images/ReadmeImages/screen_seven.png)
+* Contains links for internal page navigation.
+* 'X' for exiting the menu.
+---------
+![screenshot main-desktop image](src/images/ReadmeImages/screen_five.png)
+* Example of card for mobile device
+---------
+![screenshot main-desktop image](src/images/ReadmeImages/screen_six.png)
+* Example of card for desktop devices.
+---------
 #### Target audience
 * Target audience for this website is potential employers and companies. The target audience would also include members of the industry, who would present a networking opportunity.
 #### Tech stack
