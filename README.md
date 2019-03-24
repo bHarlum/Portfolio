@@ -29,8 +29,8 @@
 ![Mood board image](src/images/ReadmeImages/mood-board.png)
 * Inspiration came from monty python animations and I tired to follow this when creating the art for this design.
 * Also took inspiration from tiny planet images and models.
-### Colors
-![color pallet image](src/images/ReadmeImages/colours.png)
+### Colours
+![colour pallet image](src/images/ReadmeImages/colours.png)
 ### fonts
 * Indie Flower
 * Saira Extra Condensed
