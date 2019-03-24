@@ -1,5 +1,7 @@
 # Bryce Harlum Porfolio Website
 
+## Site: https://bharlum.github.io/
+
 ## Goal
 * To create a functional website as a brief introduction of myself and to show off my web development skills by displaying my projects to the community.
 
@@ -70,6 +72,9 @@
 #### Trello
 ![Trello board image](src/images/ReadmeImages/trello-board.png)
 Trello was used to track progress and prioritise tasks durring the development of the project.
+* Timeline:
+* Trello was also used to keep the project on track for a development period of seven days. 
+* This was achieved by applying dates dates to tasks as they were added to todo/development cards.
 #### Git
 ![Git example image](src/images/ReadmeImages/git-examples.png)
 * Project Rule: Commit any time a new section, content or alteration is finished.
@@ -109,6 +114,26 @@ Trello was used to track progress and prioritise tasks durring the development o
 #### Alt tags
 * The goal for these alt tags was to brifly describe ket elements without distracting from content. Allowing a user to navigate the ite without visual aid.
 
+
+### Desciption:
+
+#### Purpose
+* The purpose of this project was to present an attractive website that could be displayed to potential employers and memebers of the community.
+#### Functionality / features
+* Nav menu: This is for swift navigation through the site. Linking directly sections on the page.
+* External link bar: Found on the left of the screen, used to link users to rlevent social media links and allow them to contact me. 
+#### Sitemap
+![Git example image](src/images/ReadmeImages/Sitemap.png)
+* The site consists of a single page broken up with different cards. Each card contains information relevent to its title.
+* [File: sitemap.xml](files/sitemap.xml)
+#### Screenshots
+#### Target audience
+* Target audience for this website is potential employers and companies. The target audience would also include members of the industry, who would present a networking opportunity.
+#### Tech stack
+* HTML
+* CSS
+* JavaScript
+* Deployed to github hosting servers.
 
 
 
