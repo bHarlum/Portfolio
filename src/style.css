@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed');
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 
 
 /* SIDEBAR STYLING */
@@ -66,7 +65,7 @@ body{
     background: linear-gradient(141deg, #0fb8ad 0%, #235257 51%, #05161d 75%);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(199, 199, 199);
+    color: #c7c7c7;
 }
 
 ul{
@@ -77,20 +76,13 @@ p{
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: bold;
     font-size: 17px;
-    color: rgb(199, 199, 199);
+    color: #c7c7c7;
 }
 
 #name{
     position: fixed;
     z-index: -1;
     width: 40%;
-}
-
-#title{
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Fredericka the Great', cursive;
 }
 
 .cloud-wrapper{
