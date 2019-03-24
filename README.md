@@ -2,7 +2,6 @@
 
 #### Site: https://bharlum.github.io/
 #### Github: https://github.com/bHarlum
-* [File:Questions](files/Questions-Bryce Harlum.docx)
 
 ## Goal
 * To create a functional website as a brief introduction of myself and my background. Displaying my web development skills and my projects to the community.
@@ -129,7 +128,7 @@ Trello was used to track progress and prioritise tasks durring the development o
 #### Sitemap
 ![sitemap image](src/images/ReadmeImages/Sitemap.png)
 * The site consists of a single page broken up with different cards. Each card contains information relevent to its title.
-* [File: sitemap.xml](files/sitemap.xml)
+* [File: sitemap.xml](docs/sitemap.xml)
 #### Screenshots
 ![screenshot main-desktop image](src/images/ReadmeImages/screen_one.png)
 * This is the initial view of the desktop-user when first landing on the page.
@@ -166,6 +165,30 @@ Trello was used to track progress and prioritise tasks durring the development o
 * CSS
 * JavaScript
 * Deployed to github hosting servers.
+
+### Questions:
+
+* Describe key events in the development of the internet from the 1980s to today (max. 150 words)
+
+* 1983 brought the permanent deployment of TCP/IP protocol suite, which allowed for connection of systems, distribution and packet management. The developers of this suite are considered the fathers of the internet we use today.
+Before 1994 the internet was dominated by academia and government institutions, the internet then became accessible to the mainstream through the release of the Mosaic web browser. Amazon.com, who is still one of the internet’s largest online retailers, also opened its doors this year.
+Following this was the release of Netscape and the first iteration of Internet Explorer. Websites were very basic comparable to an ‘interactive word document’ during this period.
+The introduction of ‘web 2.0’ saw the inclusion of ‘Java, Flash, PHP, ASP, CGI, .NET,’ and more in the development of websites and services, adding greater functionality and design potential.
+Tom and myspace.com were discovered by the masses in 2005, leading to the internet becoming a greater platform for sharing. This then led to what we see today in the retention and sale of user data. 
+
+
+* Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+
+* The world wide web is a system of web-servers that contain information and share it through a series of requests and messages. These requests can come from other servers or web-browsers. The web-browser is an application that allows users to access these resources by receiving and transmitting through the HTTP(HyperText Transfer Protocol). 
+Servers and users are identified by an IP address,’a unique string of numbers separated by full stops that identifies each computer using the Internet Protocol to communicate over a network’, this is a convenient way for machines to identify each other but for humans remembering these numbers and what they are associated with is difficult and not very user friendly. For this reason Domain Name Servers exist(DNS). These servers act as a phone book for the internet, associating user friendly names such as google.com with their IP address.
+
+* Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+
+* Social-media platforms were developed for users to connect with their peers and share ideas, events, photos, videos and experiences. This trend has grown to a point where in 2017, 2.4 billion social network users were recorded. Privacy on social networks is becoming a greater concern as these platforms continue to grow.
+Huge amounts of personal information is posted these sites. Who has access to this information is an ongoing concern for users businesses and communities.
+Cyberstalking is an extreme example of oversharing and the possible misuse of user data. For example Flickr, a picture sharing website, allows for geotagging photos which shows where a user is visiting or staying.
+This is just one example of a misuse of user data and the potential dangers of social media. The dangers of posting this information can often be minimised by managing permissions but users are often unaware of the potential use of the data they share.
+
 
 
 
