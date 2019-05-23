@@ -56,7 +56,28 @@
 }
 /* SIDEBAR END */
 
+/* Git hub cards styling.*/
 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    display: inline-block;
+    background-color: #c7c7c7;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card li{
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+/* End github card styling*/
 html{
     scroll-behavior: smooth;
 }
@@ -72,7 +93,7 @@ ul{
     list-style: none;
 }
 
-p{
+p, li{
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: bold;
     font-size: 17px;
@@ -114,7 +135,7 @@ p{
     justify-content: center;
     flex-direction: column;
     margin-bottom: 25%;
-    background-color: #9b9b9367;
+    background-color: #94939b9a;
     text-align: center;
     margin: 30px;
 }
@@ -253,6 +274,15 @@ tr section{
 
 @media only screen and (min-width: 1000px) {
     
+    p {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .content{
+        margin: 100px;
+    }
+
     #default-answer{
         visibility: hidden;
     }

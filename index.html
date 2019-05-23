@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/src/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="/src/style.css">
-    <script src="/src/main.js"></script>
+    <script src="/src/main.js"></script>    
 </head>
 <body>
     <nav>
@@ -17,7 +17,7 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" alt="close nav box button">×</a>
             <a href="#home"alt="Home button">Home</a>
             <a href="#about-me" alt="about me button">About me</a>
-            <a href="#links" alt="links button">Links</a>
+            <a href="#links" alt="links button">Projects</a>
             <a href="#history" alt="history button">History</a>
             <a href="#contact" alt="contact button">Contact</a>
         </div>
@@ -43,7 +43,7 @@
 
         <div class="content" id="home" alt="Home paragraph block">
             <h2 id="home">Home</h2>
-            <p>Welcome to my portfolio page.</p>
+            <p>Welcome to my portfolio page.</p>         
         </div>
 
         <div class="content" id="about-me" alt="about me paragraph box">
@@ -53,20 +53,29 @@
             Discovering how things work and how tasks are achieved has always driven me. Learning electronics, building drones, canyoning and abseiling have all recently fuelled a desire for learning and improvement.
             For the last eight years, creating and developing projects has been my passion. Any activity that allowed me to improve or build. There is nothing more fulfilling than breaking problems down, solving each part intuitively. This is why I love to code. Moving to web-development has been the best decision of my life. 
             </p>
-        </div>
-
-        <div class="content" id="links" alt="Links paragragh block">
-            <h2 id="links">Links</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quaerat ducimus tenetur velit totam a impedit nemo optio, sequi blanditiis exercitationem ratione voluptas. Expedita velit veritatis aperiam incidunt, aspernatur deleniti!</p>
-        </div>
-
-        <div class="content" id="history" alt="History paragraph box">
-            <h2 id="history" alt="History title">History</h2>
             <p>
                 Currently studying the fast-track bootcamp, at coder academy Sydney. 
                 This along with night classes, industry talks and self learning, will aid in my transition to the industry,
                 with a sound understanding of what is required of me and how to continue my education as challenges are presented to me.
             </p>
+        </div>
+
+        <div class="content" id="links" alt="Current projects paragragh block">
+            <h2 id="links">Pet Projects</h2>
+            <p>Currently I am working with my Raspberry Pi. 
+            The Problem I am trying to solve is signing in and out on a physical page for attending Coder Academy. 
+            My solution is to set up my Pi as a server on the network and watch for peoples mac addresses signing them in and out 
+         ,depending on when they first connected to the wi-fi and when they last were seen on the network.
+            </p>
+            <div class="container">
+                <div class="card">
+                    <ul id="git-card-list"></ul>
+                </div>
+            </div>  
+        </div>
+
+        <div class="content" id="history" alt="History paragraph box">
+            <h2 id="history" alt="History title">History</h2>
             <h4>Most recent:</h4>
             <p>
                 My last position was as a quality assurance technician. This role had me working closely with production teams and management to ensure products consistently met standards and specifications.
@@ -107,16 +116,6 @@
                     <li alt="email">Email: bryce.harlum@gmail.com</li>
                     <li alt="phone number">Phone: 0427083787</li>
                 </ul>
-                <table>
-                    <tr alt="Obligatory table">
-                        <th>Question</th>
-                        <th>Answer</th>
-                    </tr>
-                    <tr>
-                        <td>Is my site responsive?</td>
-                        <td><span id="answer">Yes</span><span id="default-answer">Maybe</span></td>
-                    </tr>
-                </table>
             </div>
         </footer>
 </body>
